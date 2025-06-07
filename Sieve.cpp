@@ -16,6 +16,7 @@ void prime(int n){
         }
     }
 }
+// sieve of Eratorthenes
 int main(){
     prime(10);
     return 0;
