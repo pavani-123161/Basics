@@ -18,5 +18,9 @@ return ((n & (n-1)) == 0);
 int main(){
     cout << isPow2(4) << endl;
     cout << isEPow2(8) << endl;
+    int num = 4;
+    num = 1 << 3;
+    num = 4 & ~(num);
+    cout << num;
     return 0;
 }
